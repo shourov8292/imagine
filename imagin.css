@@ -437,28 +437,25 @@ header{
 .footer{
     width: 100%;
     /* height: 20vh; */
-    background: black;
-    color: var(--primary-color);
+    padding:2rem;
+    background:var(--primary-color);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-
+    gap: 2rem;
 }
 .footer_contact_icon ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 .footer_contact_icon ul li{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: var(--secoundery-color);
 }
 .footer_contact_icon a{
-    /* border-radius: 50%; */
-    color: var(--primary-color);
+    color: var(--secoundery-color);
     font-size: 2rem;
 }
 
@@ -610,6 +607,11 @@ responsive design start here here
     .imagin-feature_card{
         width: 100%;
     }
+    .imagin-feature_card__icon{
+        width: 75px;
+        height: 75px;
+        top: -50px;
+    }
     .feedback{
         max-width:550px;
     }
@@ -639,6 +641,7 @@ responsive design start here here
     }
     .our_mission{
         max-width: 550px;
+        width: 450px;
         padding:20px;
     }
 
@@ -657,9 +660,8 @@ responsive design start here here
         margin: 20px;
     }
     .testimonial{
-        max-width:550px;
-        width: 500px;
-        margin:auto 20px 
+        max-width: 550px;
+        height:auto;
     }
 
     .blog_post{
